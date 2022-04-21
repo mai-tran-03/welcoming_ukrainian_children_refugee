@@ -1,29 +1,16 @@
-/************************************************/
-/************* UNIVERSAL ELEMENTS ***************/
-/************************************************/
-
-/* Reset the space of the webpage */
 * {
    margin: 0px;
    padding: 0px;
 }
 
-/* These styles apply to almost all elements unless another rule set says otherwise */
-body,
 html {
   height: 100%;
   box-sizing: border-box;
   background-color: blue;
 }
 
-/* These rules apply to the header at the top of the page */
 header {
   padding-top: 25px;
-}
-
-/* These rules apply to the main content of the page below the header */
-main {
-  
 }
 
 .images { 
@@ -37,7 +24,6 @@ img {
   padding: 5px;
 }
 
-/* Heading styles */
 h1 {
   text-align: center;
   color: #ffffff;
@@ -54,7 +40,6 @@ h3 {
  padding: 25px;
 }
 
-/* Paragraph style */
 p { 
  text-align: center;
  color: #ffffff;
@@ -69,17 +54,6 @@ p {
   margin: 10px;
 }
 
-/* Link style */
-a {
-  
-}
-
-
-/************************************************/
-/*************** CSS FOR NAV BAR ****************/
-/************************************************/  
-
-/* Unorder list elements */
 ul {
  display: flex;
  justify-content: center;
@@ -87,7 +61,6 @@ ul {
  padding: 10px;
 }
 
-/* List elements */
 li {
   padding: 10px;
   margin-left: 25px;
@@ -112,58 +85,3 @@ li {
   color: #ffffff;
   font-weight: bolder;
 }
-
-/* List elements with a link or <a> tag */
-li a {   
-  
-}
-
-/* List elements with a link or <a> tag when you hover over them */
-li a:hover {
- 
-}
-
-/************************************************/
-/******************* HOMEPAGE *******************/
-/************************************************/
-
-/* Subtitle */
-
-
-/* Images*/ 
-
-
-/* Image Attributions (see under the middle image on the homepage) */
-
-
-
-/************************************************/
-/***************** TAKE ACTION ******************/
-/************************************************/
-
-/* Text */
-
-
-/* Checklist */
-
-
-/* Unordered List Elements */
-
-
-/* List Elements */
-
-
-/************************************************/
-/******************** ABOUT *********************/
-/************************************************/
-
-
-
-/******************************************************/
-/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
-/******************************************************/
-
-/* Breakpoint 1: For screens that are 850 pixels wide or less */
-
-
-/* Breakpoint 2: You try! */
