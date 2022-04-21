@@ -1,0 +1,169 @@
+/************************************************/
+/************* UNIVERSAL ELEMENTS ***************/
+/************************************************/
+
+/* Reset the space of the webpage */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+/* These styles apply to almost all elements unless another rule set says otherwise */
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: blue;
+}
+
+/* These rules apply to the header at the top of the page */
+header {
+  padding-top: 25px;
+}
+
+/* These rules apply to the main content of the page below the header */
+main {
+  
+}
+
+.images { 
+  display: flex;
+  height: 100px;
+  width: 200px;
+  padding-top: 10px;
+}
+
+img {
+  padding: 5px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+ color: #ffffff;
+ background-color: red;
+ padding: 25px;
+}
+
+/* Paragraph style */
+p { 
+ text-align: center;
+ color: #ffffff;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.info {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px;
+}
+
+/* Link style */
+a {
+  
+}
+
+
+/************************************************/
+/*************** CSS FOR NAV BAR ****************/
+/************************************************/  
+
+/* Unorder list elements */
+ul {
+ display: flex;
+ justify-content: center;
+ background-color: yellow;
+ padding: 10px;
+}
+
+/* List elements */
+li {
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.checklist {
+  display: flex;
+  justify-content: center;
+  border-left: 5px red solid;
+  background-color: red;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.steps {
+  color: #ffffff;
+  padding-top: 5px;
+}
+
+.stats {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+/* List elements with a link or <a> tag */
+li a {   
+  
+}
+
+/* List elements with a link or <a> tag when you hover over them */
+li a:hover {
+ 
+}
+
+/************************************************/
+/******************* HOMEPAGE *******************/
+/************************************************/
+
+/* Subtitle */
+
+
+/* Images*/ 
+
+
+/* Image Attributions (see under the middle image on the homepage) */
+
+
+
+/************************************************/
+/***************** TAKE ACTION ******************/
+/************************************************/
+
+/* Text */
+
+
+/* Checklist */
+
+
+/* Unordered List Elements */
+
+
+/* List Elements */
+
+
+/************************************************/
+/******************** ABOUT *********************/
+/************************************************/
+
+
+
+/******************************************************/
+/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
+/******************************************************/
+
+/* Breakpoint 1: For screens that are 850 pixels wide or less */
+
+
+/* Breakpoint 2: You try! */
